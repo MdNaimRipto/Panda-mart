@@ -47,6 +47,16 @@
     padding: 10px 20px;
 }
 
+.carousel-control-prev {
+    top: 40%;
+    bottom: -85%;
+}
+
+.carousel-control-next {
+    top: 40%;
+    bottom: -85%;
+}
+
 /* Header style Ending */
 
 /* Categories section starting */
@@ -102,19 +112,15 @@
 
 /* Shoes section ending */
 
-/* Media Quary */
+/* Media Quary Mobile device */
 
 @media screen and (max-width:576px) {
     .carousel-control-prev {
-        height: 90%;
-        display: block;
-        top: 10%;
+        top: 35%;
     }
 
     .carousel-control-next {
-        height: 90%;
-        display: block;
-        top: 10%;
+        top: 35%;
     }
 
     .carousel-item .row {
@@ -131,17 +137,15 @@
     }
 }
 
+/* Media quary Tablet screen */
+
 @media screen and (min-width:576px) and (max-width:992px) {
     .carousel-control-prev {
-        height: 80%;
-        display: block;
-        top: 20%;
+        top: 30%;
     }
 
     .carousel-control-next {
-        height: 80%;
-        display: block;
-        top: 20%;
+        top: 30%;
     }
 
     .carousel-item .row {
