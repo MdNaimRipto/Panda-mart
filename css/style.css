@@ -101,7 +101,7 @@
 
 /* Categories section Ending */
 
-/* Shoes secton starting */
+/* Shoes and bags secton starting */
 
 .card-button a {
     background-color: #000;
@@ -110,7 +110,25 @@
     font-size: 14px;
 }
 
-/* Shoes section ending */
+/* Shoes and bags section ending */
+
+/* Subcribtion section starting */
+
+.subcribtion-container {
+    background-color: #FEEAE9;
+}
+
+.subcribtion-button {
+    color: #FFFFFF;
+    background-color: #f91a73;
+    border: none;
+}
+
+.subcribtion-button:hover {
+    background-color: #FF9C35;
+}
+
+/* Subcribtion section Ending */
 
 /* Media Quary Mobile device */
 
@@ -154,6 +172,10 @@
 
     .carousel-item .row .col img {
         margin-bottom: 15px;
+    }
+
+    .single-col {
+        margin-top: 20px;
     }
 
     .see-all {
