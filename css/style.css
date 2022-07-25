@@ -77,6 +77,17 @@
     width: 90px;
 }
 
+.see-all {
+    text-align: right;
+    display: block;
+    color: #FF9C35;
+    border: none;
+}
+
+.see-all:hover {
+    color: #FF9C35;
+}
+
 /* Categories section Ending */
 
 /* Media Quary */
@@ -90,6 +101,10 @@
     .carousel-item .row .col img {
         margin-bottom: 15px;
     }
+
+    .see-all {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -99,5 +114,9 @@
 
     .carousel-item .row .col img {
         margin-bottom: 15px;
+    }
+
+    .see-all {
+        text-align: center;
     }
 }
