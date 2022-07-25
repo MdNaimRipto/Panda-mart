@@ -71,6 +71,7 @@
 
 .categorie-item-3 {
     background-color: #4289FF;
+    color: #FFFFFF;
 }
 
 .categorie-item-3 img {
@@ -104,6 +105,18 @@
 /* Media Quary */
 
 @media screen and (max-width:576px) {
+    .carousel-control-prev {
+        height: 90%;
+        display: block;
+        top: 10%;
+    }
+
+    .carousel-control-next {
+        height: 90%;
+        display: block;
+        top: 10%;
+    }
+
     .carousel-item .row {
         flex-direction: column-reverse;
         text-align: center;
@@ -119,6 +132,18 @@
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
+    .carousel-control-prev {
+        height: 80%;
+        display: block;
+        top: 20%;
+    }
+
+    .carousel-control-next {
+        height: 80%;
+        display: block;
+        top: 20%;
+    }
+
     .carousel-item .row {
         flex-direction: column-reverse;
     }
