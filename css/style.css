@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+/* Header style starting*/
+
 .search-button {
     background-color: #FF589B;
     border: none;
@@ -14,3 +16,9 @@
 .search-button:hover {
     background-color: #FF9C35;
 }
+
+.nav-link:hover {
+    color: black;
+}
+
+/* Header style Ending */
