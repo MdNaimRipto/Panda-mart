@@ -1,0 +1,16 @@
+/* Common style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.search-button {
+    background-color: #FF589B;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.search-button:hover {
+    background-color: #FF9C35;
+}
