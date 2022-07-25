@@ -21,4 +21,30 @@
     color: black;
 }
 
+/* Header slider section */
+.top-banner {
+    background-color: #FEEAE9;
+}
+
+.slider-info h1 {
+    margin-bottom: 30px;
+}
+
+.slider-info p {
+    color: #4E4E4E;
+    font-weight: 500;
+}
+
+.slider-info h2 {
+    color: #f91a73;
+    margin-bottom: 20px;
+}
+
+.slider-info .btn {
+    background-color: #f91a73;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
 /* Header style Ending */
