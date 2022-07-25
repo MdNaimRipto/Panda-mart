@@ -17,7 +17,7 @@
     background-color: #FF9C35;
 }
 
-.nav-link:hover {
+.navbar-link:hover {
     color: black;
 }
 
@@ -40,19 +40,20 @@
     margin-bottom: 20px;
 }
 
-.slider-info .btn {
+.slider-button {
     background-color: #f91a73;
     color: #FFFFFF;
     font-size: 12px;
     padding: 10px 20px;
+    border: none;
 }
 
-.carousel-control-prev {
-    top: 40%;
-    bottom: -85%;
+.slider-button:hover {
+    background-color: #FF9C35;
+    border: none;
 }
 
-.carousel-control-next {
+.carousel-button {
     top: 40%;
     bottom: -85%;
 }
@@ -134,20 +135,16 @@
 /* Media Quary Mobile device */
 
 @media screen and (max-width:576px) {
-    .carousel-control-prev {
+    .carousel-button {
         top: 35%;
     }
 
-    .carousel-control-next {
-        top: 35%;
-    }
-
-    .carousel-item .row {
+    .box-info {
         flex-direction: column-reverse;
         text-align: center;
     }
 
-    .carousel-item .row .col img {
+    .img-col img {
         margin-bottom: 15px;
     }
 
@@ -159,19 +156,15 @@
 /* Media quary Tablet screen */
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    .carousel-control-prev {
+    .carousel-button {
         top: 30%;
     }
 
-    .carousel-control-next {
-        top: 30%;
-    }
-
-    .carousel-item .row {
+    .box-info {
         flex-direction: column-reverse;
     }
 
-    .carousel-item .row .col img {
+    .img-col img {
         margin-bottom: 15px;
     }
 
