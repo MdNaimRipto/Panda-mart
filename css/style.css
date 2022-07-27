@@ -53,11 +53,6 @@
     border: none;
 }
 
-.carousel-button {
-    top: 40%;
-    bottom: -85%;
-}
-
 /* Header style Ending */
 
 /* Categories section starting */
@@ -135,11 +130,6 @@
 /* Media Quary Mobile device */
 
 @media screen and (max-width:576px) {
-    .carousel-button {
-        top: 55%;
-        height: 35%;
-    }
-
     .box-info {
         flex-direction: column-reverse;
         text-align: center;
@@ -157,11 +147,6 @@
 /* Media quary Tablet screen */
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    .carousel-button {
-        top: 30%;
-        height: 65%;
-    }
-
     .box-info {
         flex-direction: column-reverse;
     }
